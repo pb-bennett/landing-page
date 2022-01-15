@@ -39,10 +39,47 @@ a {
   }
 
   .header-link-container {
-      display: flex;
-      /* flex-direction: column; */
+    display: flex;
+    /* flex-direction: column; */
   }
 
   .container-one{
-      
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 24px 0;
+    gap: 6px;
+  }
+
+  .c1-left-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    /* border:solid 2px white; */
+    align-items: flex-start;
+  }
+
+  .c1-title {
+    color: #F9FAF8;  
+    font-size: 48px;
+    font-weight: bolder;  
+  }
+
+  .c1-text {
+    color: #E5E7EB;
+    font-size: 18px; 
+  }
+
+  .c1-image {
+    width: 400px;
+    border: solid 2px white;
+  }
+
+  .sign-up {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    padding: 6px 16px;
+    width: 100px; 
+    margin-top: 8px;
   }
