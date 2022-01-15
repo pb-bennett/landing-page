@@ -1,2 +1,48 @@
 /* style.css */
 
+body{
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header-container {
+    background-color: #1F2937;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    /* margin-left: 16px; */
+}
+
+.header-link-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px
+    /* margin-right: 60px; */
+    /* justify-items: flex-end; */
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .header-link-container {
+      display: flex;
+      /* flex-direction: column; */
+  }
+
+  .container-one{
+      
+  }
