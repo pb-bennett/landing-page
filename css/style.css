@@ -6,7 +6,7 @@ body{
     min-height: 100vh;
 }
 
-.header-container {
+/* .header-container {
     background-color: #1F2937;
     display: flex;
     height: 40px;
@@ -14,11 +14,12 @@ body{
     justify-content: space-between;
     padding: 0px 40px;
 
-}
+} */
 
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    margin-bottom: auto;
     /* margin-left: 16px; */
 }
 
@@ -40,6 +41,8 @@ a {
 
   .header-link-container {
     display: flex;
+    margin-bottom: auto;
+    border: solid 2px white;
     /* flex-direction: column; */
   }
 
@@ -47,8 +50,10 @@ a {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
-    padding: 24px 0;
-    gap: 6px;
+    padding: 24px 24px 50px 24px;
+    gap: 24px;
+    height: 300px;
+    /* padding-bottom: 50px; */
   }
 
   .c1-left-container {
@@ -71,8 +76,10 @@ a {
   }
 
   .c1-image {
-    width: 400px;
-    border: solid 2px white;
+    width: auto;
+    height: 200px;
+    /* border: solid 2px white; */
+    background-color: grey;
   }
 
   .sign-up {
@@ -82,4 +89,10 @@ a {
     padding: 6px 16px;
     width: 100px; 
     margin-top: 8px;
+  }
+
+  .c1-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
